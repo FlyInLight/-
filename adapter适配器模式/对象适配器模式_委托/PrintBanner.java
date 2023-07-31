@@ -5,7 +5,7 @@
  * PrintBanner类的作用是将被适配的类Banner的接口转换成目标抽象类Print，使得客户端可以通过目标抽象类来调用
  * 被适配类的功能，而无需直接依赖于被适配类。
  */
-package adapter适配器模式.对象适配器模式;
+package adapter适配器模式.对象适配器模式_委托;
 
 public class PrintBanner extends Print {
     private Banner banner;
