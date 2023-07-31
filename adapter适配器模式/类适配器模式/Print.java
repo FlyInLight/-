@@ -7,7 +7,7 @@
  * 在本例中，Print接口声明了两个抽象方法：printWeak()和printStrong()，分别用于实现弱化显示和强化显示。
  * 客户端将通过这两个方法来实现对被适配的类（Adaptee）的不同打印方式的调用。
  */
-package adapter适配器模式;
+package adapter适配器模式.类适配器模式;
 
 public interface Print {
     /**
