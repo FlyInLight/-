@@ -10,7 +10,7 @@
  * 在实际使用中，具体的聚合类（ConcreteAggregate）将实现此接口，实现 iterator() 方法，
  * 返回一个具体的迭代器对象，用于遍历聚合对象中的元素。
  */
-package iterator迭代器模式;
+package n1_iterator迭代器模式;
 
 import java.util.Iterator;
 

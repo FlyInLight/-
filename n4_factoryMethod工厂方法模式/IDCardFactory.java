@@ -5,7 +5,7 @@
  * 并实现了其中的抽象方法createProduct()和registerProduct()，来创建和注册具体产品IDCard。
  * 同时，IDCardFactory类还添加了一个成员变量owners，用于保存已创建ID卡的拥有者列表。
  */
-package factoryMethod工厂方法模式;
+package n4_factoryMethod工厂方法模式;
 
 import java.util.ArrayList;
 import java.util.List;

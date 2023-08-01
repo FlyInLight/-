@@ -4,7 +4,7 @@
  * 在迭代器模式中，BookShelf类是聚合对象的具体实现，它代表了一个图书架，
  * 用于存放多本图书对象。BookShelf类实现了Aggregate接口，提供了获取迭代器对象的方法。
  */
-package iterator迭代器模式;
+package n1_iterator迭代器模式;
 
 import java.util.Iterator;
 

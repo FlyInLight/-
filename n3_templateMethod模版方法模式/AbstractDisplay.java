@@ -11,7 +11,7 @@
  * 子类继承AbstractDisplay类后，需要实现open()、print()和close()方法，以及根据具体需求来重写display()方法，
  * 从而定义自己的具体算法。
  */
-package templateMethod模版方法模式;
+package n3_templateMethod模版方法模式;
 
 public abstract class AbstractDisplay {
     /**

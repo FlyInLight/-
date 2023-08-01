@@ -4,7 +4,7 @@
  * 在迭代器模式中，BookShelfIterator类是迭代器对象的具体实现，用于遍历图书架中的图书。
  * BookShelfIterator类实现了Iterator接口，提供了 hasNext() 和 next() 方法，用于遍历图书架。
  */
-package iterator迭代器模式;
+package n1_iterator迭代器模式;
 
 import java.util.Iterator;
 

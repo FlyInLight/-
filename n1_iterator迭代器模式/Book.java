@@ -4,7 +4,7 @@
  * 在迭代器模式中，Book类是聚合对象的元素类型。它代表了一个图书对象，
  * 拥有一个名称属性（name）作为图书的标识。
  */
-package iterator迭代器模式;
+package n1_iterator迭代器模式;
 
 public class Book {
     private String name;

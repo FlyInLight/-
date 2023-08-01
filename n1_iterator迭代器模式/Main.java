@@ -4,7 +4,7 @@
  * 在迭代器模式中，Main类是客户端类，用于演示迭代器模式的使用。
  * 客户端通过创建一个具体聚合对象并获取其迭代器，遍历聚合对象中的元素，实现对聚合对象的遍历操作。
  */
-package iterator迭代器模式;
+package n1_iterator迭代器模式;
 
 import java.util.Iterator;
 

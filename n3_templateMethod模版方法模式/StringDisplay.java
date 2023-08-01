@@ -4,7 +4,7 @@
  * 在模板方法模式中，StringDisplay类是具体子类，它继承了抽象模板类AbstractDisplay，
  * 并实现了其中的抽象方法，来定义自己的具体算法。
  */
-package templateMethod模版方法模式;
+package n3_templateMethod模版方法模式;
 
 public class StringDisplay extends AbstractDisplay {
     private String string;

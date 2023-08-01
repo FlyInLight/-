@@ -3,7 +3,7 @@
  *
  * 在模板方法模式中，Main类是客户端类，它用于测试模板方法的具体子类的实现效果。
  */
-package templateMethod模版方法模式;
+package n3_templateMethod模版方法模式;
 
 public class Main {
     public static void main(String[] args) {

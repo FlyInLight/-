@@ -5,7 +5,7 @@
  * 用于创建Product对象，同时定义了抽象方法createProduct()和registerProduct()，
  * 分别用于创建具体产品和注册产品。
  */
-package factoryMethod工厂方法模式;
+package n4_factoryMethod工厂方法模式;
 
 public abstract class Factory {
     /**

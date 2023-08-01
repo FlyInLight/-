@@ -4,7 +4,7 @@
  * 在工厂方法模式中，Product类是抽象产品类，它定义了一个抽象方法use()，
  * 用于在具体产品中实现不同的功能。
  */
-package factoryMethod工厂方法模式;
+package n4_factoryMethod工厂方法模式;
 
 public abstract class Product {
     /**

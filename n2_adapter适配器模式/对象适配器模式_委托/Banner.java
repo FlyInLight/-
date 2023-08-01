@@ -5,7 +5,7 @@
  *
  * 这个类是我们需要使用的旧接口或旧组件，但是由于它的接口和我们需要的目标接口不兼容，需要通过适配器来进行转换。
  */
-package adapter适配器模式.对象适配器模式_委托;
+package n2_adapter适配器模式.对象适配器模式_委托;
 
 public class Banner {
     private String string;

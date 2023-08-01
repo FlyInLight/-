@@ -4,7 +4,7 @@
  * 在工厂方法模式中，IDCard类是具体产品类，它继承了抽象产品类Product，
  * 并实现了其中的抽象方法use()，来定义自己的具体功能。
  */
-package factoryMethod工厂方法模式;
+package n4_factoryMethod工厂方法模式;
 
 public class IDCard extends Product {
     private String owner;
