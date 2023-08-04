@@ -1,8 +1,20 @@
+/**
+ * Command Pattern Sample
+ *
+ * 这是一个演示命令模式的示例程序，用于实现绘图应用的历史记录和撤销功能。
+ * 它创建了一个绘图应用的主窗口，包含一个绘图区域 DrawCanvas 和一个删除按钮 deleteButton。
+ * DrawCanvas 负责绘制图形，并通过 MouseMotionListener 来监听鼠标拖动事件，当拖动鼠标时会创建 DrawCommand 命令并将其添加到 MacroCommand 历史记录中。
+ * deleteButton 负责清空历史记录，从而实现撤销功能。
+ *
+ * 主类 Main 实现了 ActionListener、MouseMotionListener 和 WindowListener 接口，分别处理删除按钮点击事件、鼠标拖动事件和窗口关闭事件。
+ * 在删除按钮点击事件中，清空历史记录并重绘绘图区域。
+ * 在鼠标拖动事件中，创建 DrawCommand 命令并将其添加到历史记录中，并执行该命令来绘制图形。
+ * 在窗口关闭事件中，关闭程序。
+ */
 package n22_command命令模式;
 
 import javax.swing.*;
 import java.awt.event.ActionListener;
-import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 import java.awt.event.WindowListener;
 
@@ -41,8 +53,7 @@ public class Main extends JFrame implements ActionListener, MouseMotionListener,
         }
     }
 
-
-    // MouseListener接口中的方法
+    // MouseMotionListener接口中的方法
     public void mouseMoved(java.awt.event.MouseEvent e) {
 
     }
